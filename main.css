@@ -1,0 +1,159 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #ffcc80;
+    padding:15px 30px;
+}
+.logo-section{
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+.logo{
+    height:50px;
+    width:50px;
+    object-fit:cover;
+}
+.logo-section h2{
+    margin:0;
+    font-style:italic;
+}
+ 
+nav a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a: hover{
+    color:red;
+}
+
+.hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:500px;
+    background-image: url("https://cdn.phototourl.com/free/2026-07-09-4928398d-4f22-40c9-adbc-0a6c5f37da51.png");
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+}
+.hero-content{
+    background-color:rgba(0,0,0,0.5);
+    padding:30px;
+    border-radius:10px;
+}
+.hero-content h1{
+    color:white;
+    font-size:50px;
+}
+.hero-content p{
+    color:white;
+    font-size:22px;
+}
+.hero-content button{
+    padding:12px 25px;
+    font-size:18px;
+    background-color:orange;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    color:white;
+}
+.hero-content button: hover{
+     background-color:red;
+}
+
+.about{
+    padding:50px;
+    text-align: center;
+    background-color: #fff8e1;
+}
+.about h2{
+    font-size: 35px;
+    color: darkred;
+}
+.about p{
+    font-size: 18px;
+    color: #444;
+    line-height: 1.8;
+    width: 70%;
+    margin:auto;
+}
+.about h3{
+    font-size:25px;
+    color:black;
+}
+   .menu{
+    padding: 50px;
+    text-align: center;
+    background-color: #fff8e1;
+}
+
+.menu h2{
+    font-size: 35px;
+    color: darkred;
+    margin-bottom: 30px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px gray;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.card h3{
+    margin: 10px 0;
+}
+
+.card p{
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+.card button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: red;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: red;
+} 
